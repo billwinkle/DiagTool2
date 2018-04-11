@@ -1,0 +1,91 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Application Specific Screen Sizes -->
+    <!-- TOP LAYOUT ITEMS -->
+    <dimen name="top_layout_height">90dp</dimen>
+    <dimen name="top_appbar_height">60dp</dimen>
+    <dimen name="top_appbar_width">1024dp</dimen>
+    <dimen name="top_appbar_margin_bottom">16dp</dimen>
+
+    <dimen name="top_appbar_text_height">50dp</dimen>
+    <dimen name="top_appbar_text_size">32sp</dimen>
+    <dimen name="top_appbar_text_padding_left">40dp</dimen>
+    <dimen name="top_appbar_text_padding_top">10dp</dimen>
+    <dimen name="top_appbar_text_layout_width">450dp</dimen>
+
+    <!-- MIDDLE LAYOUT ITEMS -->
+    <dimen name="middle_layout_height">300dp</dimen>
+    <!-- MIDDLE TEXT LEFT LABEL LAYOUT  ITEMS -->
+    <dimen name="middle_left_margin_start">32dp</dimen>
+    <dimen name="middle_left_margin_left">2dp</dimen>
+    <dimen name="middle_left_margin_top">0dp</dimen>
+    <dimen name="middle_left_height">300dp</dimen>
+
+    <!-- MIDDLE TEXT LABEL FIELD ITEMS -->
+    <dimen name="middle_left_field_height">30dp</dimen>
+    <dimen name="middle_left_field_text_size">18sp</dimen>
+    <dimen name="middle_right_field_width">300dp</dimen>
+
+    <!-- MIDDLE TEXT RIGHT LABEL LAYOUT  ITEMS -->
+    <dimen name="middle_right_margin_bottom">16dp</dimen>
+    <dimen name="middle_right_margin_right">10dp</dimen>
+    <dimen name="middle_right_margin_top">0dp</dimen>
+    <dimen name="middle_right_height">300dp</dimen>
+    <dimen name="middle_right_width">500dp</dimen>
+
+    <!-- MIDDLE/TOP RADIO BuTTON LAYOUT-->
+    <dimen name="middle_radio_layout_width">300dp</dimen>
+    <dimen name="middle_radio_layout_height">271dp</dimen>
+    <dimen name="middle_radio_choice_width">176dp</dimen>
+    <dimen name="middle_radio_choice_height">178dp</dimen>
+
+    <!-- radio button text -->
+    <dimen name="radio_text">22sp</dimen>
+    <dimen name="radio_text_height">30dp</dimen>
+    <dimen name="radio_text_width">110sp</dimen>
+
+
+    <!-- BOTTOM LAYOUT -->
+    <dimen name="bottom_layout_height">101dp</dimen>
+    <!-- BUTTONS -->
+    <!-- QUERY DATA BUTTON -->
+    <dimen name="bottom_button_query_height">60dp</dimen>
+    <dimen name="bottom_button_query_width">151dp</dimen>
+    <dimen name="bottom_button_query_margin_bottom">10dp</dimen>
+    <dimen name="bottom_button_query_margin_left">40dp</dimen>
+    <!-- START STREAM BUTTON -->
+    <dimen name="bottom_button_stream_height">60dp</dimen>
+    <dimen name="bottom_button_stream_width">151dp</dimen>
+    <dimen name="bottom_button_stream_margin_bottom">10dp</dimen>
+    <dimen name="bottom_button_stream_margin_left">40dp</dimen>
+
+    <!-- FAB BUTTON -->
+
+    <dimen name="bottom_button_fab_margin_bottom">10dp</dimen>
+    <dimen name="bottom_button_fab_margin_left">400dp</dimen>
+
+
+    <!-- stream window size - fragment and activity-->
+    <dimen name="small_stream_width">200dp</dimen>
+    <dimen name="small_stream_height">130dp</dimen>
+
+    <!-- activity setup   - multiple windows-->
+    <dimen name="stream_window_gap">25dp</dimen>
+    <dimen name="stream_windows_width">200dp</dimen>
+    <dimen name="stream_windows_height">500dp</dimen>
+    <dimen name="stream_windows_marginleft">25dp</dimen>
+    <!-- activity setup   -main windows-->
+    <dimen name="main_window_gap">40dp</dimen>
+    <dimen name="main_windows_height">500dp</dimen>
+    <dimen name="main_windows_width">700dp</dimen>
+
+
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

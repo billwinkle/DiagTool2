@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stream_windows_width"
+            android:layout_height="800dp"
+            android:id="@+id/preview_windows"
+            android:weightSum="1">
+
+            <TextureView
+                android:layout_width="@dimen/stream_window_gap"
+                android:layout_height="@dimen/stream_window_gap"
+                android:id="@+id/textureView2" />
+
+            <fragment
+                android:layout_width="@dimen/small_stream_width"
+                android:layout_height="@dimen/small_stream_height"
+                android:layout_marginLeft="@dimen/stream_windows_marginleft"
+                android:name="medialabs.nbcu.com.diagtool2.StreamWindowFragment"
+                android:id="@+id/stream1_window"
+                tools:layout="@layout/stream_fragment" />
+
+            <TextureView
+                android:layout_width="@dimen/stream_window_gap"
+                android:layout_height="@dimen/stream_window_gap"
+                android:id="@+id/textureView3"
+                 />
+
+            <fragment
+                android:layout_width="@dimen/small_stream_width"
+                android:layout_height="@dimen/small_stream_height"
+                android:layout_marginLeft="@dimen/stream_windows_marginleft"
+                android:name="medialabs.nbcu.com.diagtool2.StreamWindowFragment"
+                android:id="@+id/stream2_window"
+                tools:layout="@layout/stream_fragment" />
+
+            <TextureView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/textureView5"
+                />
+
+            <fragment
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:name="medialabs.nbcu.com.diagtool2.StreamWindowFragment"
+                android:id="@+id/stream3_window"
+                tools:layout="@layout/stream_fragment" />
+
+
+            <TextureView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/textureView6"
+                />
+
+            <fragment
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:name="medialabs.nbcu.com.diagtool2.StreamWindowFragment"
+                android:id="@+id/stream4_window"
+                tools:layout="@layout/stream_fragment" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/main_windows_width"
+            android:layout_height="900dp"
+            android:id="@+id/main_window">
+
+            <TextureView
+                android:layout_width="@dimen/stream_window_gap"
+                android:layout_height="75dp"
+                android:id="@+id/textureView4"
+                />
+
+            <fragment
+                android:layout_width="@dimen/main_windows_width"
+                android:layout_height="@dimen/main_windows_height"
+                android:layout_marginTop="@dimen/main_window_gap"
+                android:layout_marginLeft="@dimen/main_window_gap"
+                android:name="medialabs.nbcu.com.diagtool2.StreamWindowFragment"
+                android:id="@+id/stream_main"
+                tools:layout="@layout/stream_fragment" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

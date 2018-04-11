@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="medialabs.nbcu.com.diagtool2.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:text="Control IP:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Start Stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getStream"
+        android:layout_alignBaseline="@+id/getData"
+        android:layout_alignBottom="@+id/getData"
+        android:layout_alignRight="@+id/serverAddress"
+        android:layout_alignEnd="@+id/serverAddress" />
+
+    <TextView
+        android:text="User:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Server IP Address:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Server Loc:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userID"
+        android:layout_below="@+id/gestureStatusText"
+        android:layout_alignLeft="@+id/srvLocation"
+        android:layout_alignStart="@+id/srvLocation" />
+
+    <TextView
+        android:text="serverAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverAddress"
+        android:layout_below="@+id/userID"
+        android:layout_alignLeft="@+id/streamStarts"
+        android:layout_alignStart="@+id/streamStarts" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:id="@+id/gestureStatusText"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/userID"
+        android:layout_alignStart="@+id/userID" />
+
+    <TextView
+        android:text="server Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/srvLocation"
+        android:layout_below="@+id/serverAddress"
+        android:layout_alignLeft="@+id/serverAddress"
+        android:layout_alignStart="@+id/serverAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newData"
+        android:text="newdata"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/getData"
+        android:layout_alignLeft="@+id/getData"
+        android:layout_alignStart="@+id/getData" />
+
+    <TextView
+        android:text="Client Location:"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/textView8"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:text="Stream Count:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/textView5"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="480dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_height="255dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:foreground="@android:color/background_dark"
+        android:contextClickable="true"
+        android:keepScreenOn="true"
+        tools:fadingEdge="horizontal|vertical"
+        tools:outlineProvider="bounds" />
+
+    <Button
+        android:text="Query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getData"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="clientLocationafskglhadlwkusglyeu2qwdq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientLocation"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/getStream"
+        android:layout_alignStart="@+id/getStream" />
+
+    <TextView
+        android:text="Stream Id:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/newData"
+        android:layout_alignRight="@+id/getData"
+        android:layout_alignEnd="@+id/getData" />
+
+    <TextView
+        android:text="stream id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/streamId"
+        android:layout_marginTop="18dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/streamStarts"
+        android:layout_alignStart="@+id/streamStarts" />
+
+    <TextView
+        android:text="streamStarts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/streamStarts"
+        android:layout_marginRight="89dp"
+        android:layout_marginEnd="89dp"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toLeftOf="@+id/textureView"
+        android:layout_toStartOf="@+id/textureView" />
+
+</RelativeLayout>
